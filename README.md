@@ -1,10 +1,14 @@
 # ZaloniAssignment
 
+Pre-requisite: The localhost should have pip, boto and ansible installed.
+
 1) Create account on AWS.
-
+    - Create a SSH key and store the .pem file on your localhost.
+    
 2) Create instance of a linux machine with the required specifications.
-
-3) Create an image (AMI) of the v=created instance.
+    - Amazon Linux machine selected, with 
+    
+3) Create an image (AMI) of the created instance.
 
 4) Gather the AMI-id from the image and put it the ansible script.
 
