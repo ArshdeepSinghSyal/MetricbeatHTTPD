@@ -64,7 +64,7 @@ Pre-requisite: The localhost should have pip, boto and ansible installed.
     ```sudo systemctl stop metricbeat.service```
 
 
-14) View the monitoring output.
+14) View the monitoring output from inside /tmp/metricbeat.
     
-    ```less /tmp/metricbeat/metricbeat.log```
+    ```tail -f metricbeat.log ```
   
