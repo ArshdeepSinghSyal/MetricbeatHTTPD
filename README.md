@@ -67,4 +67,3 @@ Pre-requisite: The localhost should have pip, boto and ansible installed.
 14) View the monitoring output from inside /tmp/metricbeat.
     
     ```tail -f metricbeat.log ```
-  
